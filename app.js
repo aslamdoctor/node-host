@@ -1,5 +1,4 @@
 const fs = require('fs');
-const yargs = require('yargs');
 const hostile = require('hostile');
 
 var foldername = process.argv[2];
