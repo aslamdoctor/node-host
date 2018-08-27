@@ -1,0 +1,4 @@
+1. generate hosts
+2. import db
+3. do search replace
+4. copy wordpress boilerplate(only wordpress)

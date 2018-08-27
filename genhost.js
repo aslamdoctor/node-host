@@ -8,9 +8,9 @@ if(foldername !== undefined){
 
 	var vhosts_path = `c:\\xampp\\apache\\conf\\extra\\httpd-vhosts.conf`;
 	var vhosts_code = `\n\n<VirtualHost *:80>
-	DocumentRoot "C:/xampp/htdocs/${foldername}"
+	DocumentRoot "E:/sites/${foldername}"
 	ServerName ${hostname}
-	<Directory "C:/xampp/htdocs/${foldername}">
+	<Directory "E:/sites/${foldername}">
 	Options Indexes FollowSymLinks ExecCGI Includes
 		Order allow,deny
 		Allow from all
